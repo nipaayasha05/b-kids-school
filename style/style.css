@@ -519,6 +519,7 @@ header{
       .stories-container{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
+        margin-left: 50px;
       }
       .keep-icon-social{
         gap: 1px;
@@ -530,6 +531,15 @@ header{
      .logo-bar{
         display: block;
      }
+
+     .story-btn2{
+      padding: 5px;
+      margin-top: -40px;
+    }
+    .story-btn3{
+      padding: 5px;
+      margin-top: -40px;
+    }
 
       
     }
@@ -613,7 +623,7 @@ header{
       display: flex;
       /* grid-template-columns: 1fr; */
       flex-direction: column;
-      margin-left: 10px;
+      /* margin-left: 0px; */
 
     }
 
