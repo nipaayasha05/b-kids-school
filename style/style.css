@@ -623,7 +623,7 @@ header{
       display: flex;
       /* grid-template-columns: 1fr; */
       flex-direction: column;
-      /* margin-left: 0px; */
+      /* margin-left: 10px; */
 
     }
 
@@ -631,6 +631,15 @@ header{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
       margin-left: 10px;
+    }
+
+    .about-school, .keep-touch{
+      margin-left: 10px;
+    }
+
+    .keep-icon-social{
+      gap: 5px;
+      margin-bottom: 10px;
     }
 
 
