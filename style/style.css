@@ -620,7 +620,7 @@ header{
     .stories-container{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
-      margin-left: 20px;
+      margin-left: 10px;
     }
 
 
