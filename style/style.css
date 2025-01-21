@@ -145,6 +145,11 @@ header{
     margin-bottom: 60px;
   }
 
+  marquee{
+    color: rgba(1, 172, 253, 1);
+    font-size: 2rem;
+  }
+
   /* main */
 
   main{
@@ -251,8 +256,30 @@ header{
     background-color:Orange ;
     border-radius: 30px; 
     
+    
    }
 
+   .left-icon-btn{
+     
+    border: none;
+   }
+
+   .right-icon-btn{
+    border: none;
+   }
+
+   .left-icon-btn:hover{
+    background-color: #fdac15;
+    border-radius: 50px;
+    color: #FFFFFF;
+     
+   }
+
+   .right-icon-btn:hover{
+    background-color: #fdac15;
+    border-radius: 50px;
+    color: #FFFFFF;
+   }
 
    /* our-stories */
 
@@ -435,17 +462,71 @@ header{
       color: white;
     }
 
+    .about-school, .keep-touch{
+      margin-top: 30px;
+    }
+
     .keep-icon-social{
       display: flex;
+      gap: 10px;
     }
 
     .footer-container{
-      max-width: 1500px;
+      max-width: 1600px;
       margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
+      display: flex;
+       justify-content: space-around;
+     
+    }
+
+
+    @media screen and (max-width:768px){
+      .story-box1{
+        display: none;
+      } 
+
+      .our-stories{
+        align-items: center;
+        justify-items: center;
+        
+      }
+
+      .banner-image img{
+        width:100%;
+    }
+
+
+      /* .footer-container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+      } */
+
+      .footer-description{
+        margin-left: 10px;
+      }
+
+      .standard-content{
+        gap: 10px;
+      }
+
+      .stories-container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+      }
+      .keep-icon-social{
+        gap: 1px;
+      }
+
+      .none{
+        display: none;
+      }
+     .logo-bar{
+        display: block;
+     }
+
       
     }
+      
 
 
 
@@ -496,10 +577,7 @@ header{
       display: none;
     }
 
-    .story-box2, .story-box3, .story-box4, .story-box5{
-      /* min-width: 165px; */
-        
-    }
+     
 
     .story-image2 img  {
       min-width: 165px;
@@ -511,14 +589,24 @@ header{
     }
 
     .footer-container{
-      grid-template-columns: repeat(1,1fr);
+      display: flex;
+      /* grid-template-columns: 1fr; */
+      flex-direction: column;
       margin-left: 10px;
+
+    }
+
+    .stories-container{
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
     }
 
 
 
     }
-      
+
+
+     
   
 
   
